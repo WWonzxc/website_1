@@ -50,7 +50,7 @@
          url('../fonts/montserrat-v24-latin_cyrillic-900.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/montserrat-v24-latin_cyrillic-900.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
-*{
+*,{
   box-sizing: border-box;  
 }
 a{
@@ -108,9 +108,6 @@ body{
     margin-right: 0px;
 }
 
-.menu:hover, .menu:focus, .menu:active{
-    
-}
 .int{
     height: 100vh;
     background: url(../img/intr.png) no-repeat center;
@@ -188,10 +185,10 @@ body{
 
 .int_2{
     height: 100vh;
-    background: url(../img/intr2.png) no-repeat center;
+    background: url(../img/intr.png) no-repeat center;
     background-size: cover;
     padding-top: 255px;
-    padding-bottom: 1000px;
+    padding-bottom: 500px;
 }
 .portfolio_s{
     font-weight: 700;
@@ -230,9 +227,10 @@ body{
 .tame_lane{
     font-weight: 700;
     font-size: 20px;
+    
 }
 .tame_lane_d{
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -243,20 +241,18 @@ body{
     max-width: 300px
 }
 .tame_lane_do1{
-    margin-bottom: 75px;
+    padding-bottom: 55px;
 }
 .tame_lane_do2{
-    margin-bottom: 100px;
+    padding-bottom: 80px;
 }
 .tame_lane_do3{
-    margin-bottom: 100px;
+    padding-bottom: 80px;
 }
 .tame_lane_do4{
-    margin-bottom: 75px;
+    padding-bottom: 55px;
 }
-.tame_lane_do5{
-    margin-bottom: 100px;
-}
+
 .tuda{
     position: absolute;
     top: 390px;
@@ -265,9 +261,11 @@ body{
 .suda{
     position: absolute;
     top: 800px;
-    left: 1330px;  
+    left: 1025px; 
 }
 .datas{
     font-weight: 700;
     font-size: 20px;
 }
+
+/*  бл услуги */
